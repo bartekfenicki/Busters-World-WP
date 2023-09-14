@@ -1,0 +1,13 @@
+[11-Sep-2023 19:50:23] NOTICE: fpm is running, pid 28439
+[11-Sep-2023 19:50:23] NOTICE: ready to handle connections
+[13-Sep-2023 02:50:15] NOTICE: Terminating ...
+[13-Sep-2023 02:50:15] NOTICE: Terminating ...
+[13-Sep-2023 02:50:15] NOTICE: exiting, bye-bye!
+[13-Sep-2023 09:20:58] NOTICE: fpm is running, pid 34678
+[13-Sep-2023 09:20:58] NOTICE: ready to handle connections
+[14-Sep-2023 01:18:23] NOTICE: Terminating ...
+[14-Sep-2023 01:18:23] NOTICE: Terminating ...
+[14-Sep-2023 01:18:23] NOTICE: exiting, bye-bye!
+[14-Sep-2023 10:12:52] NOTICE: fpm is running, pid 41761
+[14-Sep-2023 10:12:52] NOTICE: ready to handle connections
+[14-Sep-2023 10:18:47] WARNING: [pool www] child 41767 said into stderr: "sh: gs: command not found"

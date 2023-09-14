@@ -1,0 +1,7 @@
+[12-Sep-2023 17:49:18 UTC] PHP Warning:  Attempt to read property "title" on null in /Users/bartek/Local Sites/busters-world/app/public/wp-includes/class-wp-customize-widgets.php on line 905
+[13-Sep-2023 09:49:24 UTC] PHP Warning:  Attempt to read property "ID" on null in /Users/bartek/Local Sites/busters-world/app/public/wp-content/themes/buster-theme/front-page.php on line 35
+[13-Sep-2023 09:49:24 UTC] PHP Warning:  Attempt to read property "post_title" on null in /Users/bartek/Local Sites/busters-world/app/public/wp-content/themes/buster-theme/front-page.php on line 36
+[13-Sep-2023 09:49:24 UTC] PHP Warning:  Attempt to read property "post_content" on null in /Users/bartek/Local Sites/busters-world/app/public/wp-content/themes/buster-theme/front-page.php on line 38
+[13-Sep-2023 09:49:39 UTC] PHP Warning:  Attempt to read property "ID" on int in /Users/bartek/Local Sites/busters-world/app/public/wp-content/themes/buster-theme/front-page.php on line 35
+[13-Sep-2023 09:49:39 UTC] PHP Warning:  Attempt to read property "post_title" on int in /Users/bartek/Local Sites/busters-world/app/public/wp-content/themes/buster-theme/front-page.php on line 36
+[13-Sep-2023 09:49:39 UTC] PHP Warning:  Attempt to read property "post_content" on int in /Users/bartek/Local Sites/busters-world/app/public/wp-content/themes/buster-theme/front-page.php on line 38

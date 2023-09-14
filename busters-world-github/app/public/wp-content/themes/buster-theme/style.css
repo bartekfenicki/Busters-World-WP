@@ -1,0 +1,379 @@
+/*
+Theme Name: buster's world
+Text Domain: buster's world
+Version: 1.0
+Description: Theme for a school project
+Author: Bartek Fenicki
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik+80s+Fade&display=swap');
+
+html {
+    margin-top: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    top: 0;
+    background-image: url(../buster-theme/images/background2.png);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    font-family: 'Dosis', sans-serif;
+}
+
+header {
+    margin: 0;
+    top: 0;
+    padding: 0;
+    width: 100%;
+}
+nav {
+    width: 100%;
+    background-color: #543477;
+    display: flex;
+    justify-content: space-between;
+}
+.logo-image {
+    width: 300px;
+    height: auto;
+    padding: 15px;
+    margin: 20px;
+    
+}
+ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    padding: 15px;
+    margin: 35px;
+    color: #fff;
+    font-size: 20px;
+    
+}
+a {
+    list-style: none;
+    text-decoration: none;
+    color: #fff;
+}
+
+
+a:hover {
+    color: #f27821;
+}
+
+@media screen and (max-width: 675px) {
+header {
+    margin: 0;
+}
+    nav {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    ul {
+       justify-content: center;
+        margin: 10px;
+    }
+    .logo-image {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+    }
+
+}
+
+
+
+main {
+   width: 100%;
+   height: auto;
+   left: 0;
+   right: 0;
+   top: 0;
+}
+.top-background {
+    position: relative;
+}
+.background-top-image {
+    width: 100%;
+}
+.title {
+    color: #fff;
+    font-weight: 400;
+
+}
+.capital {
+    font-size: 50px;
+}
+.introbox {
+    position: absolute;
+    width: 30%;
+    height: auto;
+    top: 15%;
+    margin-left: 60px;
+    
+}
+.tickets {
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 15px 40px 15px 40px;
+    border-radius: 20px;
+    background-color: #f27821;
+    color: #fff;
+    position: absolute;
+    top: 75%;
+    right: 10%;
+}
+
+@media screen and (max-width: 1000px) {
+    .top-background {
+        position: static;
+        display: block;
+    }
+    .introbox {
+        position: static;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+.tickets {
+    position: static;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+}
+
+
+
+
+
+.container {
+    margin-top: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.left-box {
+    width: 30%;
+    
+}
+.play-poster {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.right-box {
+    width: 30%;
+}
+
+@media screen and (max-width: 1000px) {
+.container {
+    display: block;
+}
+.left-box {
+    display: block;
+    width: 400px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    text-align: center;
+}
+.right-box {
+    display: block;
+    width: 400px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    text-align: center;
+}
+}
+
+.text-properties {
+    font-size: 20px;
+    color: #fff;
+    letter-spacing: 1px;
+    text-align: justify;
+    margin: 10px;
+}
+.adjustment {
+    font-size: 18px;
+}
+
+
+
+.event-input {
+    padding: 15px 75px 15px 15px;
+    border-radius: 20px;
+    background-color: #f27821;
+    color: #fff;
+    margin: 10px;
+}
+.submit {
+    font-size: 15px;
+    letter-spacing: 1px;
+    padding: 10px 40px 10px 40px;
+    border-radius: 20px;
+    background-color: #f27821;
+    color: #fff;
+   margin: 10px;
+}
+.big-number {
+    font-size: 120px;
+    color: #ffffff77;
+    margin-right: 25px;
+}
+
+
+
+@media screen and (max-width: 1000px) {
+ .centering {
+    text-align: center;
+ }
+}
+
+.video-container {
+    margin-top: 50px;
+    width: 100%;
+    display: block;
+    margin-bottom: 50px;
+}
+video {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.video-tag {
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.adress {
+color: #f27821;
+margin-left: 10px;
+font-size: 18px;
+}
+.adress:hover {
+    color: #543477;
+}
+
+footer {
+    margin: 0;
+    bottom: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #543477;
+    display: flex;
+    justify-content: space-between;
+
+}
+.social-media {
+    margin-top: 10px;
+    margin-right: 35px;
+    margin-left: 35px;
+}
+.socials-icon {
+    height: 35px;
+    width: auto;
+    margin: 5px;
+}
+.footer-container {
+    width: 62%;
+    display: flex;
+    justify-content: space-between;
+}
+@media screen and (max-width:850px) {
+    footer {
+        display: block;
+        width: 100%;
+    }
+    .social-media {
+        text-align: center;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .footer-container {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 600px) {
+    .footer-container {
+        display: block;
+    }
+    .footer-nav {
+        text-align: center;
+    }
+    .logo-image {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
+.actor {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.actor-icon {
+    height: 150px;
+    width: auto;
+    border-radius: 100px;
+}
+.sponsor-container {
+    margin-top: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.sponsor {
+    display: block;
+}
+.box {
+    width: 120px;
+    height: 80px;
+    background-color: grey;
+}
+.sponsor-box-1 {
+    margin-bottom: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.inside-box {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+.sponsor-box-2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+@media screen and (max-width: 650px) {
+    .sponsor-box-1 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .inside-box {
+       width: 100%;
+       margin-bottom: 50px;
+    }
+}
